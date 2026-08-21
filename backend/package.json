@@ -1,0 +1,26 @@
+{
+  "name": "online-job-portal-backend",
+  "version": "1.0.0",
+  "description": "Backend for Online Job Portal - Novexa Technologies",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node utils/seedData.js"
+  },
+  "keywords": ["job-portal", "mern", "express", "mongodb"],
+  "author": "Novexa Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
