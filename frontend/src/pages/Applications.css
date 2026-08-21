@@ -1,0 +1,154 @@
+.applications-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 60px);
+}
+
+.applications-page h1 {
+  margin-bottom: 30px;
+  color: var(--text-dark);
+}
+
+.applications-table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.application-row {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 20px;
+}
+
+.applicant-info h3 {
+  font-size: 20px;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.applicant-email {
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.applicant-phone {
+  color: var(--text-light);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.applicant-info p {
+  color: var(--text-light);
+  font-size: 14px;
+  margin: 0;
+}
+
+.job-info {
+  padding: 15px;
+  background: var(--bg-light);
+  border-radius: 6px;
+}
+
+.job-info h4 {
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.job-info p {
+  color: var(--text-light);
+  margin: 0;
+}
+
+.skills-section {
+  padding: 15px;
+  background: var(--bg-light);
+  border-radius: 6px;
+}
+
+.skills-section strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--text-dark);
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.application-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.application-info p {
+  margin: 0;
+  color: var(--text-dark);
+}
+
+.cover-letter-section {
+  padding: 15px;
+  background: var(--bg-light);
+  border-radius: 6px;
+}
+
+.cover-letter-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+
+.cover-letter-section p {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.status-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
+
+.status-actions label {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.status-select {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .application-row {
+    padding: 20px;
+  }
+
+  .status-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .status-select {
+    width: 100%;
+  }
+}
